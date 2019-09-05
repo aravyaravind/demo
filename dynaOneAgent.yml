@@ -1,4 +1,4 @@
-- name: Stop service Dynatrace OneAgent, if running
+- name: Stop Service Dynatrace OneAgent, if running
   systemd:
     name: oneagent
     debug:
