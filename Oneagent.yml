@@ -1,4 +1,9 @@
 ---
+- name: Set authorized key taken from file 
+  authorized_key:
+    user: charlie
+    state: present
+    key: "{{ lookup('file', '/home/ubuntu/.ssh/') }}"
 - hosts: devHost
   connection: local
   sudo: yes
