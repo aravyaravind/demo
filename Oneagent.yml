@@ -1,0 +1,7 @@
+---
+- hosts: devHost
+  connection: local
+  sudo: yes
+  tasks:
+    - name: stop oneagent
+      systemd: name=oneagent state=stopped
