@@ -1,5 +1,5 @@
 ---
-- hosts: devHost
+- hosts: localhost
   connection: local
   sudo: yes
   tasks:
