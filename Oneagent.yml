@@ -1,7 +1,7 @@
 ---
-- hosts: localhost
+- hosts: EC2Host
   connection: local
   sudo: yes
   tasks:
-    - name: stop oneagent
-      systemd: name=oneagent state=stopped
+    - name: start oneagent
+      systemd: name=oneagent state=started
