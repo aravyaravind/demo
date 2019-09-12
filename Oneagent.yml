@@ -1,7 +1,5 @@
 ---
 - hosts: EC2Host
-  connection: local
-  sudo: yes
   tasks:
     - name: start oneagent
       systemd: name=oneagent state=started
