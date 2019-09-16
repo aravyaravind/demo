@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: ec2host
   tasks:
     - name: start oneagent
       systemd: name=oneagent state=started
