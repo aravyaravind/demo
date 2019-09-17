@@ -1,6 +1,6 @@
 ---
 - hosts: localhost
-  sudo: yes
   tasks:
     - name: stop oneagent
       systemd: name=oneagent state=stopped
+  become: yes
