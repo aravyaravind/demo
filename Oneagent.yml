@@ -4,4 +4,4 @@
   tasks:
     - name: start oneagent
       systemd: name=oneagent state=started
-      
+  become: yes
