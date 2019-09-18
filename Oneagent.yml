@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: EC2Host
   sudo: yes
   tasks:
     - name: start oneagent
