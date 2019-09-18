@@ -2,5 +2,5 @@
 - hosts: localhost
   tasks:
     - name: start oneagent
-      systemd: name=oneagent state=stopped
+      systemd: name=oneagent state=started
       
