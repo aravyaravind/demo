@@ -1,5 +1,5 @@
 ---
-- hosts: 192.168.117.115
+- hosts: localhost
   tasks:
     - name: stop oneagent
       systemd: name=oneagent state=stopped
