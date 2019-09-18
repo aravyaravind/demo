@@ -1,5 +1,5 @@
 ---
-- hosts: EC2Host
+- hosts: 3.1.248.185
   sudo: yes
   tasks:
     - name: start oneagent
