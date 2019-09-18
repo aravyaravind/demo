@@ -1,7 +1,7 @@
 ---
 - hosts: localhost
-  sudo: yes
+  become: yes
   tasks:
     - name: start oneagent
       systemd: name=oneagent state=started
-  become: yes
+ 
