@@ -3,3 +3,4 @@
   tasks:
     - name: stop oneagent
       shell: sudo service oneagent stop
+      become: yes
