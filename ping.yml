@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: 34.87.117.96
   gather_facts: false
   tasks:
     - ping:
