@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: 34.87.117.96
   become: yes
   tasks:
     - name: start oneagent
