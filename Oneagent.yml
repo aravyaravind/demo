@@ -1,6 +1,5 @@
 ---
-- hosts: 34.87.117.96
-  become: yes
+- hosts: appHost
   tasks:
     - name: start oneagent
       systemd: name=oneagent state=started
