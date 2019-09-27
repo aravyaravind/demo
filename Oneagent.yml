@@ -3,7 +3,4 @@
   tasks:
     - name: start oneagent
       systemd: name=oneagent state=started
-      vars: 
-      ansible_user: appUser
-      ansible_password: qwerty)(87
  
