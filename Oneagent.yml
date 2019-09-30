@@ -1,5 +1,6 @@
 ---
-- hosts: target
+- hosts: 34.87.117.96
+  become: yes
   tasks:
     - name: start oneagent
       systemd: name=oneagent state=started
